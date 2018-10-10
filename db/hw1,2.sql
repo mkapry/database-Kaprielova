@@ -21,10 +21,22 @@ begin_dttm timestamp,
 end_dttm timestamp default current_timestamp
  ) engine=InnoDB default charset=utf8;
 
-select user_id, sum(payment_sum) as sum
-from track18spring.payments
-group by user_id
-order by sum desc
-limit 3;
 
-select sql_calc_found_rows * from track18spring.sessions
+select * from users left join payments on (users.user_id=payments.user_id) ;
+
+select login, sum(payment_sum) as sum
+from(select login, payment_sum from  users left join payments on (users.user_id=payments.user_id)) as table2
+group by login
+order by sum desc
+limit 3 ;
+
+select * from users left join sessions on (users.user_id = sessions.user_id);
+
+select users.user_id, if(sessions.user_id is null,0, count(*)) as sessions_c from users left join sessions on (users.user_id = sessions.user_id);
+ 
+select avg(sessions_c) as avg_sessions
+from (select users.user_id, if(sessions.user_id is null,0, count(*)) as sessions_c from users left join sessions on (users.user_id = sessions.user_id)
+group by users.user_id) as table1;
+
+
+
