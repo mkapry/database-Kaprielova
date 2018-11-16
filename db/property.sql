@@ -1,0 +1,24 @@
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (1, 1, 1, 1);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (2, 3, 2, 15);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (3, 4, 3, 2);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (4, 8, 4, 29);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (5, 6, 5, 6);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (6, 7, 6, 23);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (7, 15, 7, 3);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (8, 19, 7, 3);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (9, 9, 8, 30);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (10, 11, 9, 1);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (11, 12, 12, 21);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (12, 13, 11, 25);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (13, 5, 11, 25);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (14, 2, 1, 1);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (15, 25, 40, 4);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (16, 20, 40, 4);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (17, 18, 35, 26);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (18, 17, 34, 22);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (19, 13, 23, 30);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (20, 10, 23, 30);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (21, 14,21, 11);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (22, 16, 12, 21);
+INSERT INTO property (prop_id, ensh_id, car_id, user_id) VALUES (23, 22, 13, 12);
+
